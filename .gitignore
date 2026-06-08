@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Env / secrets
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# Self-improvement output (review artifact, not source)
+prompt_improvements.md
+
+# OS
+.DS_Store

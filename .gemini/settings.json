@@ -1,0 +1,19 @@
+{
+  "//": "Phoenix MCP server — lets a Gemini CLI session (or the agent at runtime) query its OWN traces, prompts, datasets, and experiments as tools. Set --baseUrl to your Phoenix space hostname and --apiKey to your px_live_... key (or export PHOENIX_API_KEY in the shell so npx inherits it).",
+  "mcpServers": {
+    "phoenix": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@arizeai/phoenix-mcp@latest",
+        "--baseUrl",
+        "https://app.phoenix.arize.com/s/your-space",
+        "--apiKey",
+        ""
+      ]
+    },
+    "phoenix-docs": {
+      "url": "https://arizeai-433a7140.mintlify.app/mcp"
+    }
+  }
+}

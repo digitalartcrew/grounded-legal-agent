@@ -1,0 +1,22 @@
+{
+  "matterContext": "Civil — domestic violence restraining order (petitioner)",
+  "matterLabel": "Restraining order",
+  "case": {
+    "state": "California",
+    "role": "petitioner",
+    "summary": "Petitioner seeks a restraining order against a former partner after repeated unwanted contact and one in-person threat. The parties share no children. Petitioner has moved to a new address.",
+    "reliefSought": "A two-year restraining order with stay-away and no-contact provisions."
+  },
+  "timeline": [
+    { "date": "2026-03-02", "event": "Relationship ended; petitioner moved out." },
+    { "date": "2026-04-18", "event": "Respondent appeared uninvited at petitioner's workplace." },
+    { "date": "2026-04-25", "event": "Respondent sent ~20 messages in one night, including 'you can't hide from me'." },
+    { "date": "2026-05-01", "event": "Petitioner filed a police report (report #2026-10482)." }
+  ],
+  "evidence": [
+    { "type": "screenshots", "description": "Message thread from 2026-04-25 showing volume and the quoted threat." },
+    { "type": "police_report", "description": "Filed 2026-05-01, documents the workplace visit and messages." },
+    { "type": "witness", "description": "Coworker who saw the respondent at the workplace on 2026-04-18." }
+  ],
+  "statementAnalyses": []
+}

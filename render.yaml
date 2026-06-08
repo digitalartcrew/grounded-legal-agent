@@ -1,0 +1,25 @@
+# Render.com blueprint (alternative to Cloud Run).
+# Deploy: push this repo to GitHub, then New → Blueprint → pick the repo.
+# Render injects $PORT; secrets below are set in the dashboard (sync: false).
+services:
+  - type: web
+    name: grounded-legal-agent
+    runtime: docker
+    plan: free # note: free web services cold-start after idle
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: PHOENIX_PROJECT_NAME
+        value: grounded-legal-agent
+      - key: ALLOWED_ORIGINS
+        sync: false # set to your client origin(s) in the dashboard
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: PHOENIX_API_KEY
+        sync: false
+      - key: PHOENIX_COLLECTOR_ENDPOINT
+        sync: false
+      - key: COURTLISTENER_TOKEN
+        sync: false
