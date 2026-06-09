@@ -1,0 +1,107 @@
+{
+  "readiness_summary": "The petitioner is seeking a domestic violence restraining order against a former partner due to repeated unwanted contact, including an uninvited workplace visit and harassing messages containing a threat. The petitioner has filed a police report and has supporting evidence.",
+  "strengths": [
+    "Specific timeline of unwanted contact and an in-person appearance at the workplace.",
+    "Documented written threat ('you can't hide from me') via messages.",
+    "Police report filed, creating an official record of events.",
+    "Presence of a witness to the workplace visit.",
+    "Petitioner has moved to a new address, demonstrating proactive safety measures."
+  ],
+  "gaps": [
+    "Details about the specific content of the 'in-person threat' made during the workplace visit, beyond just the fact of the visit.",
+    "Information on any prior history of violence or threats, if applicable.",
+    "Clarification on whether the police report led to any charges or further investigation beyond its filing."
+  ],
+  "evidence_assessment": {
+    "clarity": "clear",
+    "notes": "The evidence provided, including message screenshots and a police report, clearly documents the incidents of unwanted contact and the explicit threat. The witness corroborates the workplace visit. This evidence directly supports the petitioner's claims of harassment and a credible threat."
+  },
+  "attorney_recommendation": {
+    "level": "medium",
+    "confidence": "clear",
+    "reasons": [
+      "Navigating the legal standards for obtaining a domestic violence restraining order, particularly regarding 'harassment' and 'credible threat,' can be complex.",
+      "An attorney can help present the evidence clearly and effectively to the court.",
+      "An attorney can assist in drafting necessary legal documents and representing the petitioner in court."
+    ]
+  },
+  "suggested_actions": [
+    "Organize all evidence (screenshots, police report, witness contact information) in chronological order for easy reference.",
+    "Prepare a detailed written statement outlining all incidents, including dates, times, and specific statements made by the respondent.",
+    "If possible, gather any additional evidence of unwanted contact or threats not already included.",
+    "Consider consulting with a licensed attorney in California to understand the specific legal requirements and procedures for obtaining a domestic violence restraining order."
+  ],
+  "caselaw_topics": [
+    "domestic violence restraining order standards",
+    "harassment as grounds for restraining order",
+    "credible threat standard California restraining order",
+    "evidence for domestic violence restraining order"
+  ],
+  "related_caselaw": [
+    {
+      "caseName": "Coalition Against Violence v. Carcieri",
+      "citation": "",
+      "court": "Superior Court of Rhode Island",
+      "dateFiled": "2008-12-02",
+      "url": "https://www.courtlistener.com/opinion/4113550/coalition-against-violence-v-carcieri/",
+      "topic": "domestic violence restraining order standards"
+    },
+    {
+      "caseName": "Lange v. California",
+      "citation": "594 U.S. 295",
+      "court": "Supreme Court of the United States",
+      "dateFiled": "2021-06-23",
+      "url": "https://www.courtlistener.com/opinion/4894054/lange-v-california/",
+      "topic": "domestic violence restraining order standards"
+    },
+    {
+      "caseName": "Castellanos v. State of California",
+      "citation": "",
+      "court": "California Supreme Court",
+      "dateFiled": "2024-07-25",
+      "url": "https://www.courtlistener.com/opinion/10014294/castellanos-v-state-of-california/",
+      "topic": "harassment as grounds for restraining order"
+    },
+    {
+      "caseName": "Goals for Autism v. Rosas",
+      "citation": "",
+      "court": "California Court of Appeal",
+      "dateFiled": "2021-06-24",
+      "url": "https://www.courtlistener.com/opinion/4894727/goals-for-autism-v-rosas/",
+      "topic": "harassment as grounds for restraining order"
+    },
+    {
+      "caseName": "Ctr. for Bio-Ethical Reform, Inc. v. Irvine Co.",
+      "citation": "249 Cal. Rptr. 3d 391",
+      "court": "California Court of Appeal, 5th District",
+      "dateFiled": "2019-07-02",
+      "url": "https://www.courtlistener.com/opinion/6240608/ctr-for-bio-ethical-reform-inc-v-irvine-co/",
+      "topic": "harassment as grounds for restraining order"
+    },
+    {
+      "caseName": "Department of Education v. California",
+      "citation": "604 U.S. 650",
+      "court": "Supreme Court of the United States",
+      "dateFiled": "2025-04-04",
+      "url": "https://www.courtlistener.com/opinion/10776858/department-of-education-v-california/",
+      "topic": "credible threat standard California restraining order"
+    },
+    {
+      "caseName": "Larsen v. California Victim Compensation Board",
+      "citation": "",
+      "court": "California Court of Appeal",
+      "dateFiled": "2021-05-11",
+      "url": "https://www.courtlistener.com/opinion/4882109/larsen-v-california-victim-compensation-board/",
+      "topic": "credible threat standard California restraining order"
+    },
+    {
+      "caseName": "Public Watchdogs v. Southern California Edison Co.",
+      "citation": "984 F.3d 744",
+      "court": "Court of Appeals for the Ninth Circuit",
+      "dateFiled": "2020-12-29",
+      "url": "https://www.courtlistener.com/opinion/4843650/public-watchdogs-v-southern-california-edison-co/",
+      "topic": "credible threat standard California restraining order"
+    }
+  ],
+  "disclaimer": "This readiness check is automated self-help preparation, not legal advice, and does not predict any court outcome. This software is not a law firm. Consider consulting a licensed attorney in your jurisdiction."
+}
