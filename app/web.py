@@ -120,8 +120,9 @@ INDEX_HTML = r"""<!doctype html>
       <label for="timeline">Timeline <span class="hint">— one per line, format: <code>YYYY-MM-DD | what happened</code></span></label>
       <textarea id="timeline" placeholder="2026-04-18 | Respondent appeared uninvited at workplace."></textarea>
 
-      <label for="evidence">Evidence <span class="hint">— one per line, format: <code>type | description</code></span></label>
+      <label for="evidence">Evidence — describe each item <span class="hint">(no upload needed; one per line, format: <code>type | description</code>)</span></label>
       <textarea id="evidence" placeholder="screenshots | Message thread showing the threat."></textarea>
+      <p class="hint" style="margin-top:6px">You describe your evidence in words — the agent assesses whether it supports your claims. It does not view or store uploaded files.</p>
 
       <div class="actions">
         <button type="submit" id="submit">Run Readiness Check</button>
