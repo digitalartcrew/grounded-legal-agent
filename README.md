@@ -1,5 +1,8 @@
 # Grounded Legal Agent
 
+> A Gemini agent that reviews a legal case safely: it can't invent citations (real CourtListener
+> cases only), never gives advice or predicts outcomes, and scores its own safety on every Phoenix trace.
+
 A small, readable **reference architecture** for safely grounding an LLM agent in
 **real case law** — and proving it stayed safe. It's a code-owned **Gemini** agent
 (Google ADK) that is **traced**, **evaluated**, and **self-improving** end-to-end via
