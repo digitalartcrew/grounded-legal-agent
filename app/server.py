@@ -18,6 +18,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
@@ -26,6 +27,7 @@ from google.adk.runners import InMemoryRunner  # noqa: E402
 from google.genai import types  # noqa: E402
 
 from app.agent import root_agent  # noqa: E402  (imports trigger setup_tracing)
+from app.web import INDEX_HTML  # noqa: E402
 
 app = FastAPI(title="Grounded Legal Agent — Case Review")
 
@@ -89,6 +91,11 @@ async def _run_review(payload: CasePayload) -> dict:
     review.setdefault("disclaimer", DISCLAIMER)
     review.setdefault("related_caselaw", [])
     return review
+
+
+@app.get("/", response_class=HTMLResponse)
+def index() -> str:
+    return INDEX_HTML
 
 
 @app.get("/health")

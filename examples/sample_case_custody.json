@@ -1,0 +1,22 @@
+{
+  "matterContext": "Family — child custody modification (petitioner)",
+  "matterLabel": "Child custody modification",
+  "case": {
+    "state": "Texas",
+    "role": "petitioner",
+    "summary": "Petitioner seeks to modify an existing joint-custody order after the other parent relocated 90 miles away without notice, disrupting the agreed school-week schedule. The child is 8. Petitioner wants the primary weekday schedule formalized so the child can stay enrolled in their current school.",
+    "reliefSought": "Modification of the custody order to designate petitioner's residence for school enrollment and adjust the weekday parenting schedule."
+  },
+  "timeline": [
+    { "date": "2024-09-10", "event": "Original joint-custody order entered; alternating weeks." },
+    { "date": "2026-01-15", "event": "Other parent moved ~90 miles away without prior notice." },
+    { "date": "2026-02-03", "event": "Child began missing school days due to long commute on the other parent's weeks." },
+    { "date": "2026-03-20", "event": "Petitioner proposed a revised schedule by email; no agreement reached." }
+  ],
+  "evidence": [
+    { "type": "court_order", "description": "Existing 2024 custody order showing the alternating-week schedule." },
+    { "type": "school_records", "description": "Attendance log showing 11 absences/tardies since the move." },
+    { "type": "messages", "description": "Email thread where petitioner proposed a new schedule and the other parent declined." }
+  ],
+  "statementAnalyses": []
+}

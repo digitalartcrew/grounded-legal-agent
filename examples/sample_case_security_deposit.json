@@ -1,0 +1,22 @@
+{
+  "matterContext": "Civil — small claims, withheld security deposit (plaintiff)",
+  "matterLabel": "Security deposit dispute",
+  "case": {
+    "state": "New York",
+    "role": "plaintiff",
+    "summary": "Plaintiff moved out of a rental on good terms and returned the keys, but the landlord withheld the entire $2,400 security deposit, claiming 'cleaning and damages.' Plaintiff has photos showing the unit was clean and an itemized list was never provided within the statutory window.",
+    "reliefSought": "Return of the $2,400 deposit, plus any statutory penalty for an improperly withheld deposit."
+  },
+  "timeline": [
+    { "date": "2026-01-31", "event": "Lease ended; plaintiff returned keys and provided forwarding address." },
+    { "date": "2026-02-01", "event": "Plaintiff took dated move-out photos of every room." },
+    { "date": "2026-03-05", "event": "Landlord emailed that the full deposit was withheld; no itemized statement attached." },
+    { "date": "2026-03-18", "event": "Plaintiff sent a written demand for the deposit and itemization; no response." }
+  ],
+  "evidence": [
+    { "type": "photos", "description": "Dated move-out photos of all rooms showing a clean, undamaged unit." },
+    { "type": "lease", "description": "Signed lease stating the deposit amount and return terms." },
+    { "type": "messages", "description": "Email from landlord withholding the deposit, and plaintiff's unanswered written demand." }
+  ],
+  "statementAnalyses": []
+}

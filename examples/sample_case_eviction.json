@@ -1,0 +1,24 @@
+{
+  "matterContext": "Housing — eviction defense (respondent/tenant)",
+  "matterLabel": "Eviction defense",
+  "case": {
+    "state": "California",
+    "role": "respondent",
+    "summary": "Tenant received a 3-day notice to pay rent or quit and then an eviction filing. Tenant had withheld one month's rent after repeatedly reporting a broken heater and a persistent leak the landlord never repaired. Tenant has continued to pay all other months on time.",
+    "reliefSought": "To defend against the eviction by raising the landlord's failure to maintain habitable conditions, and to remain housed."
+  },
+  "timeline": [
+    { "date": "2025-12-02", "event": "Tenant first reported a broken heater and bathroom leak in writing." },
+    { "date": "2026-01-08", "event": "Tenant sent a second written repair request; no repairs made." },
+    { "date": "2026-02-01", "event": "Tenant withheld February rent and notified the landlord why, in writing." },
+    { "date": "2026-02-10", "event": "Landlord served a 3-day notice to pay or quit." },
+    { "date": "2026-02-20", "event": "Landlord filed an unlawful detainer (eviction) action." }
+  ],
+  "evidence": [
+    { "type": "messages", "description": "Two dated written repair requests for the heater and leak." },
+    { "type": "photos", "description": "Photos and a short video of the non-working heater and active leak." },
+    { "type": "payment_records", "description": "Bank records showing on-time rent for every month except the one withheld." },
+    { "type": "notice", "description": "The 3-day notice and the filed unlawful detainer complaint." }
+  ],
+  "statementAnalyses": []
+}
