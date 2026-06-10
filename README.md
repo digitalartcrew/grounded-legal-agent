@@ -71,6 +71,16 @@ curl -s -X POST localhost:8080/readiness \
 The service is **degradable**: with no `PHOENIX_API_KEY` it still serves reviews, just
 untraced. Without `GOOGLE_API_KEY` it won't run — that's the agent runtime.
 
+## Test
+
+```bash
+uv sync --group dev    # installs pytest + httpx (dev only)
+uv run pytest          # offline — mocks the model + network, no API key needed
+```
+
+The suite covers the `@tool` registry, the `search_caselaw` grounding tool, and the HTTP
+surface (`/health`, the web UI, JSON extraction, and the disclaimer guarantee on `/readiness`).
+
 ## API
 
 | Method | Path | Body | Returns |

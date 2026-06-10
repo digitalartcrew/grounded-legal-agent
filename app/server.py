@@ -87,10 +87,7 @@ async def _run_review(payload: CasePayload) -> dict:
                 if getattr(part, "text", None):
                     final_text = part.text  # keep the latest model text
 
-    review = _extract_json(final_text)
-    review.setdefault("disclaimer", DISCLAIMER)
-    review.setdefault("related_caselaw", [])
-    return review
+    return _extract_json(final_text)
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -105,4 +102,9 @@ def health() -> dict:
 
 @app.post("/readiness")
 async def readiness(payload: CasePayload) -> dict:
-    return await _run_review(payload)
+    review = await _run_review(payload)
+    # Endpoint-level safety guarantee: every response carries a disclaimer and a
+    # caselaw list, no matter how the review was produced.
+    review.setdefault("disclaimer", DISCLAIMER)
+    review.setdefault("related_caselaw", [])
+    return review

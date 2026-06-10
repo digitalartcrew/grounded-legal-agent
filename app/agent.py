@@ -12,10 +12,9 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from google.adk.agents import Agent
-from google.adk.tools import FunctionTool
 
 from app.instrumentation import setup_tracing
-from app.tools import search_caselaw
+from app.tools import TOOLS  # importing the module registers every @tool function
 
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 setup_tracing()
@@ -63,5 +62,5 @@ root_agent = Agent(
     model=_MODEL,
     name="case_review_agent",
     instruction=INSTRUCTION,
-    tools=[FunctionTool(func=search_caselaw)],
+    tools=TOOLS,  # ADK auto-wraps each callable; schema comes from signature + docstring
 )

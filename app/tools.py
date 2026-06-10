@@ -10,10 +10,24 @@ from __future__ import annotations
 
 import json
 import os
+from typing import Callable
 
 import requests
 
+# The agent's tool registry. Every @tool-decorated function lands here, so the
+# agent picks them up automatically — definition, docstring-derived schema, and
+# registration all live together in this file. ADK builds each tool's JSON schema
+# from the function signature + docstring, so the contract can never drift.
+TOOLS: list[Callable] = []
 
+
+def tool(fn: Callable) -> Callable:
+    """Register ``fn`` as an agent tool (keeps tools self-contained in this module)."""
+    TOOLS.append(fn)
+    return fn
+
+
+@tool
 def search_caselaw(query: str, jurisdiction: str = "") -> str:
     """Search real U.S. court opinions for a legal topic.
 
